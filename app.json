@@ -1,0 +1,21 @@
+{
+  "name": "Contributin",
+  "description": "Let people invite themselves to your GitHub Repo",
+  "logo": "http://imgur.com/Ntc1UcK",
+  "repository": "https://github.com/gitvise/contributin",
+  "keywords": ["node", "github", "gitvise", "open source"],
+  "env": {
+    "REPO_NAME": {
+      "description": "Your GitHub repo path (<repo_owner>/<repo_name>)",
+      "required": true
+    },
+    "GITHUB_API_TOKEN": {
+      "description": "A GitHub API token (find it on https://github.com/settings/tokens",
+      "required": true
+    },
+    "GITHUB_COC": {
+      "description": "A URL to a Code of Conduct people must agree on before contributing to your repo.",
+      "required": false
+    }
+  }
+}

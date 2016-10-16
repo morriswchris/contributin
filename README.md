@@ -14,10 +14,9 @@ to a repository, given them the ability to merge.
 * A SVG badge that works well from static mediums
   (like GitHub README pages)
 
-## TODO
+## Setup
 
-* add in herkou button deploys like:
-
+### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/morriswchris/contributin/tree/master)
 
 ## Credits

@@ -10,14 +10,31 @@ to a repository, given them the ability to merge.
 ## What you get
 * A landing page you can point users to fill in their
   emails and receive an invite (`https://contribute.yourdomain.com`)
-* An `<iframe>` badge to embed on any website
 * A SVG badge that works well from static mediums
-  (like GitHub README pages)
+  (like GitHub README pages) [https://contribute.yourdomain.com/badge.svg]
 
 ## Setup
 
 ### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/morriswchris/contributin/tree/master)
+
+### Deploy yourself
+
+```
+$ npm install -g contributin
+$ REPO_NAME="<repo_owner>/<repo_name>" GITHUB_API_TOKEN=<github token> contributin
+```
+
+## Contributing
+
+Join the repo at: [![Contributin](https://contributin.herokuapp.com/button.svg)](https://contributin.herokuapp.com/)
+
+### Running Locally
+Once you've cloned the repo, you can run contributin locally through
+```
+$ gulp
+$ REPO_NAME="<repo_owner>/<repo_name>" GITHUB_API_TOKEN=<github token> bin/contributin
+```
 
 ## Credits
 

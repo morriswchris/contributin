@@ -29,7 +29,9 @@ if (flags.help) {
 if (!org || !token) {
   args.showHelp();
 } else {
-  flags.org = org;
+  var org_hash = org.split("/");
+  flags.owner = org_hash.shift();
+  flags.repo = org_hash.shift();
   flags.token = token;
 }
 

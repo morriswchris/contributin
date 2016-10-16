@@ -9,7 +9,7 @@ to a repository, given them the ability to merge.
 
 ## What you get
 * A landing page you can point users to fill in their
-  emails and receive an invite (`https://contribute.yourdomain.com`)
+  GitHub username and receive an invite through the [GitHub Api](https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator) (`https://contribute.yourdomain.com`)
 * A SVG badge that works well from static mediums
   (like GitHub README pages) [https://contribute.yourdomain.com/badge.svg]
 

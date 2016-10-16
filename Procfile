@@ -1,1 +1,1 @@
-web: bin/slackin --coc "$GITHUB_COC" --port $PORT $SLACK_SUBDOMAIN $SLACK_API_TOKEN
+web: bin/contributin --coc "$GITHUB_COC" --port $PORT $REPO_NAME $GITHUB_API_TOKEN

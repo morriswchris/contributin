@@ -10,4 +10,4 @@ RUN npm install --unsafe-perm
 
 EXPOSE 3000
 
-CMD ./bin/slackin --coc "$GITHUB_COC" --port $PORT $SLACK_SUBDOMAIN $SLACK_API_TOKEN
+CMD ./bin/contributin --coc "$GITHUB_COC" --port $PORT $REPO_NAME $GITHUB_API_TOKEN

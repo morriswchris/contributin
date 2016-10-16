@@ -27,7 +27,7 @@ $ REPO_NAME="<repo_owner>/<repo_name>" GITHUB_API_TOKEN=<github token> contribut
 
 ## Contributing
 
-Join the repo at: [![Contributin](https://contributin.herokuapp.com/button.svg)](https://contributin.herokuapp.com/)
+Join the repo at: [![Contributin](https://contributin.herokuapp.com/badge.svg)](https://contributin.herokuapp.com/)
 
 ### Running Locally
 Once you've cloned the repo, you can run contributin locally through

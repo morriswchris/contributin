@@ -1,6 +1,6 @@
 {
   "name": "contributin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Public GitHub contributing made easy",
   "repository": "morriswchris/contributin",
   "main": "dist/index",
